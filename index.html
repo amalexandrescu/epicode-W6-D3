@@ -10,9 +10,384 @@
       integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./style.css" />
     <title>My Travel Plans</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img
+          id="aviation-logo"
+          src="./assets/aviation-logo.jpeg"
+          alt="aviation logo"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarScroll"
+        aria-controls="navbarScroll"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul
+          class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll"
+          style="max-height: 100px"
+        >
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Deals of the week
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Bucegi Mountain</a></li>
+              <li><a class="dropdown-item" href="#">Bigar Waterfall</a></li>
+              <li><a class="dropdown-item" href="#">Castle in Romania</a></li>
+              <li><a class="dropdown-item" href="#">Danube Delta</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hello-summer">Hello summer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-deal">Deal of the day</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#last-minute">Last minute</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-us">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Agency name</h1>
+        <p class="lead">The place where dreams come true</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 id="week-deal">Deal of the Week</h2>
+      <div class="row text-center">
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+          <div class="card">
+            <img
+              src="./assets/babele-bucegi.jpeg"
+              class="card-img-top"
+              alt="Bucegi Mountains"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+          <div class="card">
+            <img
+              src="./assets/cascada-bigar.jpeg"
+              class="card-img-top"
+              alt="Bigar waterfall"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+          <div class="card">
+            <img
+              src="./assets/castelul-de-lut.jpeg"
+              class="card-img-top"
+              alt="castle in Romania"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-3 mx-md-auto">
+          <div class="card">
+            <img
+              src="./assets/delta-dunarii.jpeg"
+              class="card-img-top"
+              alt="Danube delta"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="hello-summer" class="container shadow-lg p-3 mb-5 bg-white rounded">
+      <h2>Hello Summer</h2>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-xl-2 mb-3">
+          <div class="card">
+            <img
+              src="./assets/brasov.jpeg"
+              class="card-img-top"
+              alt="castle in Romania"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+          <div class="col-sm-6 col-md-4 col-xl-2 mb-3">
+            <div class="card">
+              <img
+                src="./assets/Castelul-Bran.webp"
+                class="card-img-top"
+                alt="castle in Romania"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-sm-6 col-md-4 col-xl-2 mb-3">
+          <div class="card">
+            <img
+              src="./assets/peles.jpeg"
+              class="card-img-top"
+              alt="castle in Romania"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-xl-2 mb-3">
+          <div class="card">
+            <img
+              src="./assets/poiana-brasov.jpeg"
+              class="card-img-top"
+              alt="castle in Romania"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-xl-2 mb-3">
+          <div class="card">
+            <img
+              src="./assets/transfagarasan.jpeg.crdownload"
+              class="card-img-top"
+              alt="castle in Romania"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-xl-2 mb-3">
+          <div class="card">
+            <img
+              src="./assets/voronet-monastery.jpeg"
+              class="card-img-top"
+              alt="castle in Romania"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mb-3 d-none d-sm-block d-md-block d-lg-block d-xl-block">
+      <h2 id="day-deal">Deal of the Day</h2>
+      <div class="row">
+        <div id="day-deal" class="col-sm-6 col-md-7 col-xl-8 mb-3">
+          <img
+            src="./assets/castelul-cantacuzino.jpeg"
+            alt="Cantacuzino Castle"
+          />
+        </div>
+        <div id="day-deal-info" class="col-sm-6 col-md-5 col-xl-4">
+          <h4>Cantacuzino Castle</h4>
+          <p><span>Date: </span>From 1st of December to 4th of December</p>
+          <p><span>Prices</span> from 100 euro.</p>
+          <p>
+            <div>Info</div>
+            The Cantacuzino Castle is situated in Bușteni, Romania, in the
+            Zamora district, on the street bearing the same name. The building
+            has a great architectural, historical, documentary and artistic
+            value.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="last-minute" class="container mb-3">
+      <h2>Last Minute</h2>
+      <div id="last-minute" class="row">
+        <img src="./assets/babele-bucegi.jpeg" alt="Bucegi Mountain" ./>
+        <img src="./assets/cascada-bigar.jpeg" alt="Bigar Waterfall" ./>
+        <img src="./assets/castelul-cantacuzino.jpeg" alt="Cantacuzino castle" ./>
+        <img src="./assets/castelul-de-lut.jpeg" alt="Castle in Romanie" ./>
+        <img src="./assets/delta-dunarii.jpeg" alt="Danube delta" ./>
+        <img src="./assets/brasov.jpeg" alt="Brasov city" ./>
+        <img src="./assets/peles.jpeg" alt="Peles Castle" ./>
+        <img src="./assets/poiana-brasov.jpeg" alt="Brasov" ./>
+        <img src="./assets/voronet-monastery.jpeg" alt="Voronet monastery" ./>
+        <img src="./assets/transfagarasan.jpeg.crdownload" alt="Transfagarasan road" ./>
+      </div>
+    </div>
+
+    <div id="testimonials" class="container mb-3">
+      <h2>Testimonials</h2>
+      <div class=" text-center row justify-content-sm-center justify-content-md-center justify-content-lg-between justify-content-xl-between">
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+          <div class="card">
+            <img
+              src="./assets/cascada-bigar.jpeg"
+              class="card-img-top"
+              alt="castle in Romania"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Bigar Waterfall</h5>
+              <h6> -Daniel- </h6>
+              <p class="card-text">
+                Great experience! I would totally recommend this place for a summer vacation!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+          <div class="card">
+            <img
+              src="./assets/voronet-monastery.jpeg"
+              class="card-img-top"
+              alt="castle in Romania"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Voronet Monastery</h5>
+              <h6> -Lucy- </h6>
+              <p class="card-text">
+                Nice destination in Romania. A peacefull place to recover if you are tired.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="ccol-sm-6 col-md-4 col-lg-3 mb-3">
+          <div class="card">
+            <img
+              src="./assets/castelul-de-lut.jpeg"
+              class="card-img-top"
+              alt="castle in Romania"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Fairytale Castle</h5>
+              <h6> -Anne- </h6>
+              <p class="card-text">
+                Nice experience, but the weather was not so nice, a lot of rain.
+              </p>
+            </div>
+          </div>
+        </div><div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+          <div class="card">
+            <img
+              src="./assets/transfagarasan.jpeg.crdownload"
+              class="card-img-top"
+              alt="castle in Romania"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Transfagarasan Road</h5>
+              <h6> -Horia- </h6>
+
+              <p class="card-text">
+                Great experience if you love cars and a beautiful view.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="contact-us" class="d-flex justify-content-start mb-3">
+    <span class="px-3 align-middle">Agency name</span>
+    <button type="button" class="btn btn-primary px-3">Contact us</button>
+    </footer>
+
+
+
+
+
+
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
