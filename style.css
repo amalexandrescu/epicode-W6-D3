@@ -6,22 +6,46 @@
 
 .navbar {
   padding: 0;
+  background-color: bisque !important;
 }
 
 .jumbotron {
   margin-bottom: 1rem;
 }
 
-.card {
-  max-width: 200px;
+.card-img,
+.card-img-top {
+  object-fit: cover;
 }
-.card .card-img-top {
-  min-height: 135px;
+
+.card img {
+  height: 180px;
+}
+
+#hello-summer .card img {
+  height: 150px;
+}
+
+.card-body p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+#hello-summer .card-body p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+#hello-summer h5 {
+  height: 50px;
 }
 
 #day-deal {
   max-height: 400px;
-  /* background-image: url("./assets/castelul-cantacuzino.jpeg"); */
   width: 66.66%;
   object-fit: cover;
 }
@@ -40,20 +64,42 @@
 #day-deal-info span,
 #day-deal-info div {
   font-weight: bold;
-  /* white-space: nowrap; */
-  /* overflow: hidden; */
-  /* text-overflow: ellipsis; */
 }
 
-#last-minute img {
-  width: 200px;
-  height: 200px;
+#last-minute img,
+#last-minute-2 img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
 #testimonials .row .card {
-  /* width: 300px; */
   height: 400px;
+}
+
+#testimonials .card-body p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+#testimonials > div > div > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#hello-summer > div > div > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.jumbotron {
+  background-image: url("./assets/carousel-transfagarasan.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer span {

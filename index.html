@@ -15,10 +15,11 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
       <a class="navbar-brand" href="#">
         <img
           id="aviation-logo"
-          src="./assets/aviation-logo.jpeg"
+          src="./assets/logo-image.webp"
           alt="aviation logo"
         />
       </a>
@@ -55,10 +56,10 @@
               Deals of the week
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Bucegi Mountain</a></li>
-              <li><a class="dropdown-item" href="#">Bigar Waterfall</a></li>
-              <li><a class="dropdown-item" href="#">Castle in Romania</a></li>
-              <li><a class="dropdown-item" href="#">Danube Delta</a></li>
+              <li><a class="dropdown-item" href="#week-deal">Bucegi Mountain</a></li>
+              <li><a class="dropdown-item" href="#week-deal">Bigar Waterfall</a></li>
+              <li><a class="dropdown-item" href="#week-deal">Castle in Romania</a></li>
+              <li><a class="dropdown-item" href="#week-deal">Danube Delta</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -78,16 +79,18 @@
           </li>
         </ul>
       </div>
+    </div>
     </nav>
 
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Agency name</h1>
+     <div class="jumbotron jumbotron-fluid">
+      <div class="container text-success">
+        
+        <h1 class="display-4">Not-Just-A-Dream</h1>
         <p class="lead">The place where dreams come true</p>
-      </div>
+      </div> 
     </div>
 
-    <div class="container">
+  <div class="container">
       <h2 id="week-deal">Deal of the Week</h2>
       <div class="row text-center">
         <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
@@ -98,10 +101,12 @@
               alt="Bucegi Mountains"
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Bucegi Mountain</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                The Bucegi Mountains are bordered by Prahova Valley, 
+                an area with the most ski resorts in Romania. Since 1935,                
+                part of the Bucegi Mountains has been included in the list of 
+                protected areas in Romania, with national park status.
               </p>
             </div>
           </div>
@@ -115,10 +120,9 @@
               alt="Bigar waterfall"
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Bigar Waterfall</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                It is one of the famous watefalls from Romania and is visited by many people.
               </p>
             </div>
           </div>
@@ -132,10 +136,9 @@
               alt="castle in Romania"
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Fairytale Castle</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                It is commonly known as the “Fairy Tale Clay Castle” here in Romania, it has a much better official name
               </p>
             </div>
           </div>
@@ -149,10 +152,10 @@
               alt="Danube delta"
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Danube Delta</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                The Danube Delta is the second largest river delta in Europe, 
+                after the Volga Delta, and is the best preserved on the continent.
               </p>
             </div>
           </div>
@@ -160,106 +163,117 @@
       </div>
     </div>
 
-    <div id="hello-summer" class="container shadow-lg p-3 mb-5 bg-white rounded">
+    <div id="hello-summer" class="container p-3 mb-3 rounded">
       <h2>Hello Summer</h2>
       <div class="row">
-        <div class="col-sm-6 col-md-4 col-xl-2 mb-3">
-          <div class="card">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+          <div class="card shadow-lg text-center">
             <img
               src="./assets/brasov.jpeg"
               class="card-img-top"
               alt="castle in Romania"
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Brasov </h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Brașov is located in the central part of the country, 
+                about 166 km (103 mi) north of Bucharest and 380 km (236 mi) 
+                from the Black Sea. It is surrounded by the Southern Carpathians 
+                and is part of the historical region of Transylvania.
               </p>
             </div>
           </div>
         </div>
 
-          <div class="col-sm-6 col-md-4 col-xl-2 mb-3">
-            <div class="card">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+            <div class="card shadow-lg text-center">
               <img
                 src="./assets/Castelul-Bran.webp"
                 class="card-img-top"
                 alt="castle in Romania"
               />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Bran Castle</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Commonly known outside Transylvania as Dracula's Castle,
+                   it is marketed as the home of the title character in Bram Stoker's Dracula. 
+                   There is no evidence that Stoker knew anything about this castle, which has only
+                    tangential associations with Vlad the Impaler, voivode of Wallachia, who shares his
+                     name with Dracula.[1] Stoker's description of Dracula's crumbling fictional castle 
+                     also bears no resemblance to Bran Castle.
                 </p>
               </div>
             </div>
           </div>
 
-        <div class="col-sm-6 col-md-4 col-xl-2 mb-3">
-          <div class="card">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+          <div class="card shadow-lg text-center">
             <img
               src="./assets/peles.jpeg"
               class="card-img-top"
               alt="castle in Romania"
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Peles Castle</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Peleș Castle is a Neo-Renaissance castle in the Carpathian Mountains, 
+                near Sinaia, in Prahova County, Romania, on an existing medieval route 
+                linking Transylvania and Wallachia, built between 1873 and 1914. Its inauguration 
+                was held in 1883. It was constructed for King Carol I.
               </p>
             </div>
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-4 col-xl-2 mb-3">
-          <div class="card">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+          <div class="card shadow-lg text-center">
             <img
               src="./assets/poiana-brasov.jpeg"
               class="card-img-top"
               alt="castle in Romania"
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Brasov Mountain</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                The resort is located at about 1,020 metres (3,350 feet)
+                 above sea level near the city of Brașov in Romania and it is easily accessible by road.
               </p>
             </div>
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-4 col-xl-2 mb-3">
-          <div class="card">
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-3 col-xl-2 ml-lg-auto">
+          <div class="card shadow-lg text-center">
             <img
               src="./assets/transfagarasan.jpeg.crdownload"
               class="card-img-top"
               alt="castle in Romania"
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Transfagarasan Road</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Built mainly by military forces, the road had a high financial 
+                and human cost. Work was carried out in an alpine climate, at an elevation
+                 of 2,000 metres (6,600 ft), using roughly six million kilograms (5,900 long tons; 6,600 short tons) 
+                 of dynamite, and employing junior military personnel who were untrained in blasting techniques.
               </p>
             </div>
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-4 col-xl-2 mb-3">
-          <div class="card">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mr-lg-auto">
+          <div class="card shadow-lg text-center">
             <img
               src="./assets/voronet-monastery.jpeg"
               class="card-img-top"
               alt="castle in Romania"
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Voronet Monastery</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                The Voroneț Monastery is a medieval monastery in the Romanian village of 
+                Voroneț, now a part of the town Gura Humorului. It is one of the famous 
+                painted monasteries from southern Bukovina, in Suceava County.
               </p>
             </div>
           </div>
@@ -267,16 +281,17 @@
       </div>
     </div>
 
-    <div class="container mb-3 d-none d-sm-block d-md-block d-lg-block d-xl-block">
+    <div class="container d-none d-sm-block d-md-block d-lg-block d-xl-block mb-3">
       <h2 id="day-deal">Deal of the Day</h2>
       <div class="row">
-        <div id="day-deal" class="col-sm-6 col-md-7 col-xl-8 mb-3">
+        <div id="day-deal" class="col-sm-12 col-md-7 col-xl-8 mb-3">
           <img
             src="./assets/castelul-cantacuzino.jpeg"
             alt="Cantacuzino Castle"
+            class="rounded"
           />
         </div>
-        <div id="day-deal-info" class="col-sm-6 col-md-5 col-xl-4">
+        <div id="day-deal-info" class="col-sm-12 col-md-5 col-xl-4">
           <h4>Cantacuzino Castle</h4>
           <p><span>Date: </span>From 1st of December to 4th of December</p>
           <p><span>Prices</span> from 100 euro.</p>
@@ -293,19 +308,90 @@
 
     <div id="last-minute" class="container mb-3">
       <h2>Last Minute</h2>
-      <div id="last-minute" class="row">
-        <img src="./assets/babele-bucegi.jpeg" alt="Bucegi Mountain" ./>
-        <img src="./assets/cascada-bigar.jpeg" alt="Bigar Waterfall" ./>
-        <img src="./assets/castelul-cantacuzino.jpeg" alt="Cantacuzino castle" ./>
-        <img src="./assets/castelul-de-lut.jpeg" alt="Castle in Romanie" ./>
-        <img src="./assets/delta-dunarii.jpeg" alt="Danube delta" ./>
-        <img src="./assets/brasov.jpeg" alt="Brasov city" ./>
-        <img src="./assets/peles.jpeg" alt="Peles Castle" ./>
-        <img src="./assets/poiana-brasov.jpeg" alt="Brasov" ./>
-        <img src="./assets/voronet-monastery.jpeg" alt="Voronet monastery" ./>
-        <img src="./assets/transfagarasan.jpeg.crdownload" alt="Transfagarasan road" ./>
+      <div class="row w-100 mx-0">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2  px-0">
+          <img src="./assets/babele-bucegi.jpeg" alt="Bucegi Mountain" ./>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 px-0">
+          <img src="./assets/cascada-bigar.jpeg" alt="Bigar Waterfall" ./>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2  px-0">
+          <img src="./assets/castelul-cantacuzino.jpeg" alt="Cantacuzino castle" ./>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 px-0">
+          <img src="./assets/castelul-de-lut.jpeg" alt="Castle in Romanie" ./>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 px-0">
+          <img src="./assets/delta-dunarii.jpeg" alt="Danube delta" ./>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 px-0">
+          <img src="./assets/brasov.jpeg" alt="Brasov city" ./>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 px-0">
+          <img src="./assets/peles.jpeg" alt="Peles Castle" ./>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 px-0">
+          <img src="./assets/poiana-brasov.jpeg" alt="Brasov" ./>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 px-0">
+          <img src="./assets/voronet-monastery.jpeg" alt="Voronet monastery" ./>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 px-0">
+          <img src="./assets/transfagarasan.jpeg.crdownload" alt="Transfagarasan road" ./>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 px-0">
+          <img src="./assets/carousel-brasov.jpeg" alt="Brasov" ./>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 px-0">
+          <img src="./assets/Castelul-Bran.webp" alt="bran castle" ./>
+        </div>
       </div>
     </div>
+
+    <!-- <div id="last-minute" class="container mb-3"> -->
+      <!-- <h2>Last Minute</h2> -->
+        <!-- <div id="last-minute" class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mx-n3">
+          <img src="./assets/babele-bucegi.jpeg" alt="Bucegi Mountain" ./>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mx-n3">
+          <img src="./assets/cascada-bigar.jpeg" alt="Bigar Waterfall" ./>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mx-n3">
+          <img src="./assets/castelul-cantacuzino.jpeg" alt="Cantacuzino castle" ./>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mx-n3">
+          <img src="./assets/castelul-de-lut.jpeg" alt="Castle in Romanie" ./>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mx-n3">
+          <img src="./assets/delta-dunarii.jpeg" alt="Danube delta" ./>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mx-n3">
+          <img src="./assets/brasov.jpeg" alt="Brasov city" ./>
+        </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mx-n3">
+            <img src="./assets/peles.jpeg" alt="Peles Castle" ./>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mx-n3">
+            <img src="./assets/poiana-brasov.jpeg" alt="Brasov" ./>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mx-n3">
+            <img src="./assets/voronet-monastery.jpeg" alt="Voronet monastery" ./>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mx-n3">
+            <img src="./assets/transfagarasan.jpeg.crdownload" alt="Transfagarasan road" ./>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mx-n3">
+            <img src="./assets/carousel-brasov.jpeg" alt="Brasov" ./>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mx-n3">
+            <img src="./assets/Castelul-Bran.webp" alt="bran castle" ./>
+          </div>
+    </div> -->
+    <!-- </div> -->
+
+   
 
     <div id="testimonials" class="container mb-3">
       <h2>Testimonials</h2>
@@ -344,7 +430,7 @@
           </div>
         </div>
         
-        <div class="ccol-sm-6 col-md-4 col-lg-3 mb-3">
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
           <div class="card">
             <img
               src="./assets/castelul-de-lut.jpeg"
@@ -379,8 +465,10 @@
       </div>
     </div>
     <footer id="contact-us" class="d-flex justify-content-start mb-3">
-    <span class="px-3 align-middle">Agency name</span>
-    <button type="button" class="btn btn-primary px-3">Contact us</button>
+      <div class="container">
+        <span class="align-middle text-info p-0 mr-5">Not-Just-A-Dream</span>
+        <button type="button" class="btn btn-info">Contact us</button>
+      </div>
     </footer>
 
 
